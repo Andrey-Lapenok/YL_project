@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1100</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableView" name="tv_1">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1100</width>
+      <height>350</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_1">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>680</y>
+      <width>200</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выход</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_2">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>620</y>
+      <width>200</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Удалить карточку</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_3">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>620</y>
+      <width>200</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Добавить карточку</string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tv_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>350</y>
+      <width>550</width>
+      <height>250</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_4">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>680</y>
+      <width>200</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Удалить descent</string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tv_3">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>350</y>
+      <width>550</width>
+      <height>250</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_5">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>680</y>
+      <width>200</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Изменить карточку</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_6">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>619</y>
+      <width>200</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Изменить сценарий</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1100</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

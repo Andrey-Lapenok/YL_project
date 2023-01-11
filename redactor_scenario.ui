@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1100</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>70</y>
+      <width>1081</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLineEdit" name="le_1"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="le_2"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="le_3"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="le_4"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="le_5"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="le_6"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>1081</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLineEdit" name="le_7"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="le_8"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="le_9">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="le_10"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="le_11"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="le_12"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_1">
+    <property name="geometry">
+     <rect>
+      <x>475</x>
+      <y>40</y>
+      <width>150</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Названия характеристик</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>100</y>
+      <width>220</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Начальные хначения характеристик</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="start_event">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>190</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Начальное событие:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="edit_start_event">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>190</y>
+      <width>950</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="select_picture">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>240</y>
+      <width>200</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выбрать картинку</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="start_picture">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>240</y>
+      <width>200</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>680</y>
+      <width>200</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Сохранить</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exit">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>680</y>
+      <width>200</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выход</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="name_of_scenario">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>10</y>
+      <width>120</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Название сценария</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="edit_name">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>10</y>
+      <width>120</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>291</y>
+      <width>161</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="title_of_final_1">
+       <property name="text">
+        <string>Название первого конца</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="edit_title_of_final_1"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="event_of_final_1">
+       <property name="text">
+        <string>Текст первого конца</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="edit_event_of_final_1"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="condition_of_finals_1">
+       <property name="text">
+        <string>Условие первого конца</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="edit_condition_of_final_1"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="select_picture_of_finals_1">
+       <property name="text">
+        <string>Выбрать картинку</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="final_picture_1"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>290</y>
+      <width>161</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="title_of_final_2">
+       <property name="text">
+        <string>Название второго конца</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="edit_title_of_final_2"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="event_of_final_2">
+       <property name="text">
+        <string>Текст второго конца</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="edit_event_of_final_2"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="condition_of_finals_2">
+       <property name="text">
+        <string>Условие второго конца</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="edit_condition_of_final_2"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="select_picture_of_finals_2">
+       <property name="text">
+        <string>Выбрать картинку</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="final_picture_2"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>290</y>
+      <width>161</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QLabel" name="title_of_final_3">
+       <property name="text">
+        <string>Название третьего конца</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="edit_title_of_final_3"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="event_of_final_3">
+       <property name="text">
+        <string>Текст третьего конца</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="edit_event_of_final_3"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="condition_of_finals_3">
+       <property name="text">
+        <string>Условие третьего конца</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="edit_condition_of_final_3"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="select_picture_of_finals_3">
+       <property name="text">
+        <string>Выбрать картинку</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="final_picture_3"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_4">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>290</y>
+      <width>166</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_4">
+     <item>
+      <widget class="QLabel" name="title_of_final_4">
+       <property name="text">
+        <string>Название четвертого конца</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="edit_title_of_final_4"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="event_of_final_4">
+       <property name="text">
+        <string>Текст четвертого конца</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="edit_event_of_final_4"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="condition_of_finals_4">
+       <property name="text">
+        <string>Условие четвертого конца</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="edit_condition_of_final_4"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="select_picture_of_finals_4">
+       <property name="text">
+        <string>Выбрать картинку</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="final_picture_4"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_5">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>290</y>
+      <width>161</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_5">
+     <item>
+      <widget class="QLabel" name="title_of_final_5">
+       <property name="text">
+        <string>Название пятого конца</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="edit_title_of_final_5"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="event_of_final_5">
+       <property name="text">
+        <string>Текст пятого конца</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="edit_event_of_final_5"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="condition_of_finals_5">
+       <property name="text">
+        <string>Условие пятого конца</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="edit_condition_of_final_5"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="select_picture_of_finals_5">
+       <property name="text">
+        <string>Выбрать картинку</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="final_picture_5"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_6">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>290</y>
+      <width>161</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_6">
+     <item>
+      <widget class="QLabel" name="title_of_final_6">
+       <property name="text">
+        <string>Название шестого конца</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="edit_title_of_final_6"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="event_of_final_6">
+       <property name="text">
+        <string>Текст шестого конца</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="edit_event_of_final_6"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="condition_of_finals_6">
+       <property name="text">
+        <string>Условие шестого конца</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="edit_condition_of_final_6"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="select_picture_of_finals_6">
+       <property name="text">
+        <string>Выбрать картинку</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="final_picture_6"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1100</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
